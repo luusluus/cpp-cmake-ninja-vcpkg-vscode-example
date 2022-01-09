@@ -1,5 +1,8 @@
 # C++ CMake with Ninja and vcpkg in Vscode
 
+Inspired by:
+https://mp-force.ziti.uni-heidelberg.de/asc/doc/wiki/-/wikis/Getting-started/C++/Setting-up-a-development-environment/Setting-up-a-development-environment-on-Linux
+
 ## Install tools
 
 ### Install Latest CMake
