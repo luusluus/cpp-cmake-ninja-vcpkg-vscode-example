@@ -35,3 +35,17 @@ cd ~/src/vcpkg
 - C/C++ by Microsoft
 - CMake by Microsoft
 - CMake Tools by Microsoft
+
+## Configure VS Code settings 
+Open `settings.json` of your VS Code and append the following below:
+
+```json
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "/home/<user>/src/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "CMAKE_MAKE_PROGRAM": "/usr/bin/ninja"
+    },
+    "cmake.configureOnOpen": true
+```
+Replace `<user>` with your own username
